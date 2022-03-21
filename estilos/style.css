@@ -1,0 +1,114 @@
+body {
+    font-family: sans-serif;
+    min-height: 400px;
+    background-image: url('https://www.imagensempng.com.br/wp-content/uploads/2021/08/Calculos-Png.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 5px; 
+    height: 70vh;
+  }
+  
+  .page-title {
+    font-family: minhafonte;
+    color: white;
+    text-align: center;
+    background: linear-gradient(black 36%, white);
+    margin-left: 36%;
+    width: 29%;
+  }
+  
+  .page-subtitle {
+    font-family: minhafonte;
+    background: linear-gradient(180deg,black 20%, white);
+    color:#ffffff;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 34%;
+    width: 33%;
+  }
+
+  #name{
+    margin-top: 23px;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg,white 90%,black);
+  }
+
+  .primeiraCol{
+    position: absolute;
+    top: 100%;
+    left: 25%;
+  }
+
+  .segundaCol{
+    position: absolute;
+    top: 100%;
+    right: 25%;
+  }
+
+  #nota4,#nota2{
+    font-size: 15px;
+    margin-top: 10px;
+    background: linear-gradient(90deg,white 90%,black);
+  }
+
+  #nota1, #nota3{
+    font-size: 15px;
+    background: linear-gradient(90deg,white 90%,black);
+  }
+
+  #send{
+    font-family: minhafonte;
+    position: absolute;
+    background: linear-gradient(90deg,rgb(117, 113, 113) 36%,black);
+    font-size: 18px;
+    color: #000000;
+    margin-top: 40px;
+    left: 41%;
+    top: 195%;
+    height: 55%;
+    width: 20%;
+  }
+
+  label{
+    color: rgb(255, 255, 255);
+    background: linear-gradient(rgb(51, 1, 1) 40%, white);
+
+  }
+
+  #res{
+    font-family: minhafonte;
+    margin-top: 165px;
+    color: #fff;
+    font-family: arial black;
+    width: 350px;
+    margin-left: 37%;
+    text-align: center;
+  }
+  
+  .pos{
+    position: relative;
+  }
+
+  .page-logo {
+    position: absolute;
+    width: 150px;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .alura-logo {
+    width: 30px;
+    position: absolute;
+    top: 580px;
+    right: 10px;
+  }
+
+  @font-face {
+    font-family: 'minhafonte';
+    src:url(assests/fonts/Saruban-medium);
+  }

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title> Imersão Dev Alura - Aula 01</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href ="estilos/style.css" media="screen">
+      <script src="scripts.js" defer></script>
+
+    </head>
+    <header>
+        <h1 class="page-title">Calculadora de média</h1>
+    </header>
+
+    <body>
+      <div class="container">
+        <h2 class="page-subtitle">Descubra qual a sua média de nota de todas as provas!</h2>
+        
+        <form>
+          <div class="pos">
+            <div>
+              <label><strong>Nome </strong></label>
+              <input type="text" name="nome" id="name" required>
+            </div>
+              <div class="primeiraCol">
+                <div>
+                  <label><strong>1º Nota</strong></label>
+                  <input type="number" name="Primeira nota" id="nota1" required>
+                </div>
+
+                <div>
+                  <label><strong>2º Nota</strong></label>
+                  <input type="number" name="Segunda Nota" id="nota2"required>
+                </div>
+              </div>
+              <div class="segundaCol">
+                <div>
+                  <label><strong>3º Nota</strong></label>
+                  <input type="number" name="Terceira Nota" id="nota3"required>
+                </div>
+
+                <div>
+                  <label><strong>4º Nota</strong></label>
+                  <input type="number" name="Quarta Nota" id="nota4"required>
+                </div>
+              </div>
+          
+          <button type="button" id="send" onclick="Calcular()">Enviar</button>
+        </div>
+         </form>
+
+        <p id="res"></p>
+      </div>
+        <nav>
+          <a href="https://imersao.dev/" target="_blank">
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+          </a>
+          <a href="https://alura.com.br/" target="_blank">
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+          </a>
+        </nav>
+      
+      </div>
+    </body>
+  </html>
